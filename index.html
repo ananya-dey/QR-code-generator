@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>QR Code Generator</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+	<!-- Font awsome theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Google Font-->
+    <!--<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">-->
+	<!-- Customized css for this template -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<div class="container">
+    <!--Form with header-->
+    <div class="card">
+        <div class="card-block">
+            <!--Header-->
+            <div class="form-header blue-gradient">
+                <h3><i class="fa fa-user"></i> QR Code Genenrator</h3>
+            </div>
+            <!--Body-->
+            <div class="md-form">
+                <i class="fa fa-qrcode prefix"></i>
+                <input type="text" id="QRcode" class="form-control">
+                <label for="QRcode">Type Text</label>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-indigo" onclick="generateQRCode()">Generate QR Code</button>
+            </div>
+            <div class="md-form">
+                <img id='QRimage'/>
+            </div>
+        </div>
+    </div>
+    <!--/Form with header-->
+</div>
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+	<!-- Customized js for this template-->
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
